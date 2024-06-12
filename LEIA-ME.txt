@@ -1,0 +1,9 @@
+Passo a passo:
+0 - npx tsdx@latest create NOME_PROJETO
+1 - npm adduser (fazer login no npm)
+2 - Adicionar ao package.json: 
+  scripts: "deploy": "npm version patch && npm publish"
+  name: COLOCAR_NOME_LIB_NPM - @nome-lib/nome-componente
+3 - Entrar na pasta 'components/src' e editar os componentes
+4 - User npm run storybook para ver componente enquanto desenvolve e documenta-lo
+5 - npm run deploy
