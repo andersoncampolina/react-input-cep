@@ -37,6 +37,14 @@
   "name": "react-input-cep",
   "author": "Anderson Campolina",
   "module": "dist/react-input-cep.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andersoncampolina/react-input-cep"
+  },
+  "bugs": {
+    "url": "https://github.com/andersoncampolina/react-input-cep/issues"
+  },
+  "homepage": "https://github.com/andersoncampolina/react-input-cep#readme",
   "size-limit": [
     {
       "path": "dist/react-input-cep.cjs.production.min.js",
